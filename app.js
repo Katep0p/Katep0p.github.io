@@ -1,7 +1,7 @@
 var index = 0;
 var start = 0;
 var finish = 0;
-var greeting = "Hi, I'm Kate,";
+var greeting = "Hi, I'm Kate, <br>check out my projects below!";
 var textAnimatorInterval = setInterval(textAnimator, 200);
 
 function textAnimator() {
