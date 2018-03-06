@@ -4,4 +4,10 @@
 }
 
 
-h1, h2, h3 { font-family: 'emulogic', serif; }
+h1, h2, h3 { font-family: 'Open Sans', serif; }
+
+#header1 {
+margin-left: 130px;
+margin-top: 400px;
+
+}
