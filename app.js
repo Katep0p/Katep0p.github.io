@@ -10,7 +10,7 @@ var textAnimatorInterval = setInterval(textAnimator, 150);
 function textAnimator() {
   document.getElementById("header1").innerHTML = greeting.substring(start, finish);
   finish++;
-  if (finish === greeting.length + name.length + myOnlySolutionForThisComma.length + myProjects.length){
+  if (finish === greeting.length){
     clearInterval(textAnimatorInterval);
   }
 }
