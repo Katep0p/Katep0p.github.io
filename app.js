@@ -10,10 +10,9 @@ var textAnimatorInterval = setInterval(textAnimator, 150);
 function textAnimator() {
   document.getElementById("header1").innerHTML = greeting.substring(start, finish);
   finish++;
+  if (finish === greeting.length){
+    clearInterval(textAnimatorInterval);
   document.getElementById("header1").innerHTML = name.slice(25,29);
-  //document.getElementById("header1").innerHTML = res;
 
-  //if (finish === greeting.length){
-    //clearInterval(textAnimatorInterval);
-//  }
+  }
 }
