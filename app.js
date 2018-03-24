@@ -1,10 +1,10 @@
 var index = 0;
 var start = 0;
 var finish = 0;
-var greeting = 'Hi, I am ' + name.bold() + '.';
+var greeting = 'Hi, I am ' + name.bold() + '.' + smallerText;
 var name = 'Kate';
 
-var smallerText = 'I am glad to have you visit this rather minimalistic space of mine, we are under reconstruction' + myProjects;
+var smallerText = '<br> I am glad to have you visit this rather minimalistic space of mine.' + myProjects;
 
 
 var myProjects = '<br> check out my projects below.';
@@ -18,11 +18,12 @@ function textAnimator() {
 
   }
 }
+//
+//function textAnimator() {
+  //document.getElementById("paragraph1").innerHTML = smallerText.substring(start, finish);
+//  finish++;
+  //if (finish === smallerText.length){
+  //  clearInterval(textAnimatorInterval);
 
-function textAnimator() {
-  document.getElementById("paragraph1").innerHTML = smallerText.substring(start, finish);
-  finish++;
-  if (finish === smallerText.length){
-    clearInterval(textAnimatorInterval);
-
-  }
+  //}
+//}
