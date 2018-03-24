@@ -1,7 +1,7 @@
 var index = 0;
 var start = 0;
 var finish = 0;
-var greeting = 'Hi, I am ' + name + ',' + myProjects;
+var greeting = 'Hi, I am ' + name.bold() + ',' + myProjects;
 var name = 'Kate ';
 var myOnlySolutionForThisComma = ",";
 var myProjects = '<br> check out my projects below.';
