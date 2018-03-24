@@ -12,7 +12,7 @@ function textAnimator() {
   finish++;
   if (finish === greeting.length){
     clearInterval(textAnimatorInterval);
-  document.getElementById("header1").innerHTML = name.slice(25,29);
+  document.getElementById("header2").innerHTML = name.slice(25,29);
 
   }
 }
