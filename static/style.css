@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'emulogic';
+  src: url('static/emulogic.ttf');
+}
+
+
+h1, h2, h3 { font-family: 'Open Sans', serif; }
+
+#paragraph1 {
+  margin-left: 130px;
+  margin-top: 450px;
+
+}
+
+.header-position{
+  display: block;
+  margin-left: 130px;
+  margin-top: 450px;
+
+}
+
+.bold-text{
+  font-weight: bold;
+}
+
+.body-text-size{
+  font-size: 14px;
+}
+
+.header-text-size{
+  font-size: 22px;
+}
